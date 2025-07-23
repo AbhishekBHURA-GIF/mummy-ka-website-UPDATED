@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manju's Rakhi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<div id="image-modal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modal-image">
+</div>
+<body>
+  <header>
+    <h1>Manju's Rakhi</h1>      
+    <nav class="cart-nav">
+    <a href="cart.html" class="nav-link">🛒 Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main id="product-list"></main>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
